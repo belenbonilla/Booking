@@ -36,7 +36,7 @@ class BookingSystem:
         
         # 1. Check if we already reached capacity
         if len(self.bookings) >= self.capacity:
-            print(f"Cannot add booking {new_booking}, capacity limit of {self.capacity} reached.")
+            print(f"Cannot add booking {new_booking}, capacity limit of {self.capacity} reached. Please check")
             return False
 
         # 2. Check overlap
